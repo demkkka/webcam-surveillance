@@ -24,7 +24,6 @@ cd webcam-surveillance
 ```
 2. Create a virtual environment:
 ```
-
 # On Windows
 python -m venv venv
 
@@ -33,7 +32,6 @@ python3 -m venv venv
 ```
 3. Activate the virtual environment:
 ```
-
 # On Windows
 venv\Scripts\activate
 
