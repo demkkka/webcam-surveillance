@@ -19,14 +19,30 @@ A motion detection program using a webcam with automatic photo sending to Telegr
 
 1. Clone the repository:
 ```
-git clone <your-repo-url>
-cd <your-repo-name>
+git clone https://github.com/demkkka/webcam-surveillance.git
+cd webcam-surveillance
 ```
-2. Install dependencies:
+2. Create a virtual environment:
+```
+
+# On Windows
+python -m venv venv
+
+# On macOS/Linux
+python3 -m venv venv
+```
+3. Activate the virtual environment:
+```
+
+# On Windows
+venv\Scripts\activate
+
+# On macOS/Linux
+source venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
-3. Create a `.env` file in the project root:
+4. Create a `.env` file in the project root:
 ```
 TELEGRAM_BOT_TOKEN=your_bot_token_here
 TELEGRAM_CHAT_ID=your_chat_id_here
