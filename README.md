@@ -38,13 +38,16 @@ venv\Scripts\activate
 # On macOS/Linux
 source venv/bin/activate
 ```
+4. Install all the dependencies:
+```
 pip install -r requirements.txt
 ```
-4. Create a `.env` file in the project root:
+5. Create a `.env` file in the project root:
 ```
 TELEGRAM_BOT_TOKEN=your_bot_token_here
 TELEGRAM_CHAT_ID=your_chat_id_here
 ```
+
 ### How to Get Telegram Bot Token and Chat ID
 
 1. **Bot Token:**
